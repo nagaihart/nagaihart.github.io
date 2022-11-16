@@ -1,8 +1,8 @@
-## <running>
-# [running](./blog.org)
-# [competition](./competition.org)
+## <ランニング>
+# [ブログ](./blog.org)
+# [大会](./competition.org)
 # [news](./news.org)
-# [old](./old.org)
+# [古いブログ](./old.org)
 
 ## by nagaihart@gmail.com
 
