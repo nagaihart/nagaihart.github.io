@@ -1,4 +1,4 @@
-## <ランニング>
+# ランニング
 # [ブログ](./blog.org)
 # [大会](./competition.org)
 # [news](./news.org)
