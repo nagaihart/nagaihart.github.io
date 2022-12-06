@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>hist</title>
+<!-- 2022-11-26 Sat 04:51 -->
+<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta  name="generator" content="Org-mode" />
+<meta  name="author" content="Toshikazu NAGAI" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { color: green; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  pre.src-sh:before    { content: 'sh'; }
+  pre.src-bash:before  { content: 'sh'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-R:before     { content: 'R'; }
+  pre.src-perl:before  { content: 'Perl'; }
+  pre.src-java:before  { content: 'Java'; }
+  pre.src-sql:before   { content: 'SQL'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.right  { text-align: center;  }
+  th.left   { text-align: center;   }
+  th.center { text-align: center; }
+  td.right  { text-align: right;  }
+  td.left   { text-align: left;   }
+  td.center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara:nth-child(2) { display: inline; }
+  .footpara { display: block; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">hist</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#sec-1">1. ランニングと故障の履歴</a></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1"><span class="section-number-2">1</span> ランニングと故障の履歴</h2>
+<div class="outline-text-2" id="text-1">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="right" />
+
+<col  class="left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="right">200909</td>
+<td class="left">メタボによる中性脂肪1000脱却のためランニング開始</td>
+</tr>
+
+<tr>
+<td class="right">200910</td>
+<td class="left">距離を200mから800m伸ばして、無理な下り坂して左膝軟骨故障、 安静治療</td>
+</tr>
+
+<tr>
+<td class="right">2010xx</td>
+<td class="left">かならず12kmで足指付け根に痛みがでる、その場マッサージと事前マッサージ、白色ワセリンで対処</td>
+</tr>
+
+<tr>
+<td class="right">201203</td>
+<td class="left">右股関節に痛みが発生でる距離もまちまち、整形医師は痛いはずがないといった。</td>
+</tr>
+
+<tr>
+<td class="right">&#xa0;</td>
+<td class="left">2011に年末からのサイクリング導入に原因、左足を段差にのせひたすら股関節回し、金属音が発生すると治る、以降股関節回しが必須</td>
+</tr>
+
+<tr>
+<td class="right">201812</td>
+<td class="left">左足くるぶし上の内側に痛みが発生、ほぼ2kmで発生するがフォーム改善で15km発生しないこともある</td>
+</tr>
+
+<tr>
+<td class="right">201904</td>
+<td class="left">左足くるぶし上の痛み一周し始め、整形や整骨院にかかるが原因不明</td>
+</tr>
+
+<tr>
+<td class="right">201906</td>
+<td class="left">完全にはしれなくなった</td>
+</tr>
+
+<tr>
+<td class="right">201906</td>
+<td class="left">思い切ってwarkからのリセットを試み10km以上あるくが左膝の内側が痛くなり、左ひざ痛も一周しはじめ1kmもあるけなくなった</td>
+</tr>
+
+<tr>
+<td class="right">201907</td>
+<td class="left">以降2年2ヶ月いっさいのランニングを中止するが正座もできない状態で変化なし</td>
+</tr>
+
+<tr>
+<td class="right">202109</td>
+<td class="left">ベアフットでの再ランニング挑戦,一周1.6km+400mを徐々にあげて走れる期待がます。</td>
+</tr>
+
+<tr>
+<td class="right">202201</td>
+<td class="left">1.6x4+400=6.8kmあたりでそれまで登山用のサンダル使っていたのをLUNAサンダルベルーナに変更,4回目で左足の指３本目と４本目に痛みが走る</td>
+</tr>
+
+<tr>
+<td class="right">&#xa0;</td>
+<td class="left">整形にいくが２本通ってる神経を圧迫しているインソールを試せとアドバイスうける、</td>
+</tr>
+
+<tr>
+<td class="right">&#xa0;</td>
+<td class="left">市販はまったく効果なく重い、近くの個人経営のオーダーソールを見つけてアドバイス、はじめてモートン病をしる</td>
+</tr>
+
+<tr>
+<td class="right">&#xa0;</td>
+<td class="left">オーダーソールは作っては一週間5回ランニング結果調整を３回やって三週間</td>
+</tr>
+
+<tr>
+<td class="right">&#xa0;</td>
+<td class="left">両足とも靴の減り方から横ずれする癖があるので内と外のアーチを矯正、不思議とモートンにも効果があるがMAX7kmで違和感、9kmで最大痛みがでるのは変わらない</td>
+</tr>
+
+<tr>
+<td class="right">202211</td>
+<td class="left">オーダーインソールの時買った、kayano28が寿命なのと、sub4を目指したいのでもう一度モートン病をみなおすことにした</td>
+</tr>
+
+<tr>
+<td class="right">&#xa0;</td>
+<td class="left">買い直したkayano29もnikeベイパーの流れで少しだけ厚底形状をとりいれているのでオーダーインソールの効果も半減しているようだ</td>
+</tr>
+
+<tr>
+<td class="right">&#xa0;</td>
+<td class="left">現在の戦略としては、ジクロファナックとワセリン塗り込み,ロキソプロフェン(痛み止め)と胃薬でフルに挑戦、あとテーピング、オーダソールも検討</td>
+</tr>
+
+<tr>
+<td class="right">&#xa0;</td>
+<td class="left">医者は手術しても再発して痛いだけといっている</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Toshikazu NAGAI</p>
+<p class="date">Created: 2022-11-26 Sat 04:51</p>
+<p class="creator"><a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.5.1 (<a href="http://orgmode.org">Org</a> mode 8.2.10)</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
