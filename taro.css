@@ -1,11 +1,31 @@
 @charset "utf-8";
 body {
-/*  background-image: url("./pic/taro.png");
-  background-repeat: no-repeat;
-  background-position-x: left
-  background-position-y: bottom
-*/
+    /*
+    background-image: url("./pic/top.png");
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-size: 70%;    
+    background-position-y: bottom;*/
 }
 ul {
   list-style-type: square;
+}
+li{
+    color: #000000;
+}
+p {
+    margin-bottom: 15px;
+    line-height: 1.6em;
+}
+.float_none {
+    clear: both;
+}
+
+figure {
+    float: left;
+    margin: 0 15px 15px 0;
+    width: 10%;
+}
+figure img {
+    max-width: 100%;
 }
