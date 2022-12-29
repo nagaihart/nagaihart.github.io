@@ -1,5 +1,11 @@
 @charset "utf-8";
 body {
-  background-image: url("./pic/taro.png");
+/*  background-image: url("./pic/taro.png");
   background-repeat: no-repeat;
+  background-position-x: left
+  background-position-y: bottom
+*/
+}
+ul {
+  list-style-type: square;
 }
